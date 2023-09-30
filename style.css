@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+    
+}
+body{
+    background-color: #222;
+}
+.card{
+    width: 90%;
+    max-width: 480px;
+    color: #fff;
+    background: linear-gradient(135deg, #00feba,#5b548a);
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 40px 35px;
+    margin:   100px auto 0;
+    
+}
+.search{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.search input{
+border-radius: 20px;
+height:60px;
+width:100%;
+background:#cbece7;
+padding: 20px 20px;
+text-align:justify;
+font-size: 15px;
+margin: 10px auto;
+outline: 0;
+flex:1;
+border: 0;
+}
+
+.search-img{
+    height: 20px;
+}
+.search button {
+    background: #cbece7;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 10px 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    }
+    .weather h1{
+        font-size: 70px;
+    }
+    .weather h2{
+        font-size: 29px;
+    }
+    .weather img{
+        margin: 20px;
+    }
+    .details{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   .col{
+
+    /* font-size: 18px;
+    font-weight: 600; */
+    display: flex;
+    float: right;
+    height: 90px;
+    margin-top: 50px;
+   }
+   .col-content{
+   align-self: center;
+   margin: 0px -15px 0px 0px;
+   }
+
+   /* since we have added this that card is not displayed even when searched so some changes are made in the js file*/
+   .weather{
+    display: none;
+   }
+   .error{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    display: none;
+   }
